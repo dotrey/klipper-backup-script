@@ -13,6 +13,8 @@ Then make the script executable with `chmod +x git-backup.sh`. Adjust the path t
 Create a fine-grained token with the permissions for `Contents` set to `read and write`. Copy the token when 
 it is displayed.
 
+The fine grained tokens are managed here: https://github.com/settings/personal-access-tokens (last checked 2025-08-02).
+
 ## Configure the Script
 Edit the file and adjust the values for:
 ```
