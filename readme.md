@@ -1,5 +1,5 @@
 # Simple Klipper Backup Script
-This is a very simple script that commits all configuration files from `~/printe_data/config` to a configured
+This is a very simple script that commits all configuration files from `~/printer_data/config` to a configured
 repository when it runs.
 
 > Note: this is a very simple script that has to be run manually. There are better solutions out there with more
