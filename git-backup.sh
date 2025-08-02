@@ -10,8 +10,6 @@ github_repository="voron-v2.XYZ"
 
 ##################################
 
-##################################
-
 # set dotglob so that bash treats hidden files/folders starting with . correctly when copying them (ex. .themes from mainsail)
 shopt -s dotglob
 
