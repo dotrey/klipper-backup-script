@@ -10,6 +10,8 @@ github_repository="voron-v2.XYZ"
 
 ##################################
 
+##################################
+
 # set dotglob so that bash treats hidden files/folders starting with . correctly when copying them (ex. .themes from mainsail)
 shopt -s dotglob
 
@@ -23,7 +25,7 @@ cd ~/printer_data/config
 
 # Check if a .git exists, if not intialize the repository
 if [ ! -d ".git" ]; then
-    printf "printer-*.cfg\n.moonraker.conf.bkp" > .gitignore
+    printf "printer-[0-9]*_[0-9]*.cfg\n.moonraker.conf.bkp" > .gitignore
     git init
     git add .
     git commit -m "Initialized Klipper Backup Repository"
